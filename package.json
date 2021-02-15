@@ -1,0 +1,22 @@
+{
+  "name": "vite-vue-electron",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "electron-dev": "set ELECTRON_START_URL=http://localhost:3000 && electron .",
+    "start": "nf start"
+  },
+  "main": "browser/main.js",
+  "dependencies": {
+    "vue": "^3.0.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.1.4",
+    "@vue/compiler-sfc": "^3.0.5",
+    "electron": "^11.2.3",
+    "foreman": "^3.0.1",
+    "vite": "^2.0.0-beta.69"
+  }
+}
